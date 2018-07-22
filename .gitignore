@@ -44,3 +44,6 @@ Thumbs.db
 
 # API keys and secrets
 .env
+
+
+package-lock.json
