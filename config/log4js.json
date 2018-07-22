@@ -4,21 +4,21 @@
             {
                 "category": "access",
                 "type": "dateFile",
-                "filename": "log/access.log",
+                "filename": "logs/access.log",
                 "pattern": "_yyyy-MM-dd",
                 "backups": 10
             },
             {
                 "category": "system",
                 "type": "dateFile",
-                "filename": "log/system.log",
+                "filename": "logs/system.log",
                 "pattern": "_yyyy-MM-dd",
                 "backups": 10
             },
             {
                 "category": "error",
                 "type": "dateFile",
-                "filename": "log/error.log",
+                "filename": "logs/error.log",
                 "pattern": "_yyyy-MM-dd",
                 "backups": 10
             },
