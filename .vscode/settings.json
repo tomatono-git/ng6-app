@@ -37,7 +37,6 @@
     },
     "css.lint.duplicateProperties": "warning",
     "css.lint.important": "warning",
-    "java.home": "C:/Program Files/Java/jdk1.8.0_144",
     "explorer.confirmDragAndDrop": false,
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
@@ -47,7 +46,7 @@
     "tslint.rulesDirectory": "./node_modules/codelyzer",
     "typescript.tsdk": "node_modules/typescript/lib",
     "workbench.sideBar.location": "left",
-    "terminal.integrated.scrollback": 5000,
+    "terminal.integrated.scrollback": 10000,
     "gitlens.gitExplorer.files.layout": "list",
     "git.autofetch": true,
     "css.lint.idSelector": "warning",
@@ -57,5 +56,6 @@
     "css.lint.ieHack": "warning",
     "less.lint.float": "warning",
     "scss.lint.float": "warning",
-    "scss.lint.ieHack": "warning"
+    "scss.lint.ieHack": "warning",
+    "css.lint.zeroUnits": "warning"
 }
