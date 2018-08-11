@@ -72,7 +72,7 @@
     "@types/passport-local": "^1.0.32",
     "@types/shelljs": "^0.7.8",
     "codelyzer": "~4.2.1",
-    "jasmine-core": "~2.99.1",
+    "jasmine-core": "~3.2.0",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~1.7.1",
     "karma-chrome-launcher": "~2.2.0",
