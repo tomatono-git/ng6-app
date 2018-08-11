@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { SubC01Component } from './sub-c01/sub-c01.component';
 import { ProgressDemoComponent } from './progress-demo/progress-demo.component';
+import { RxjsDemoComponent } from './rxjs-demo/rxjs-demo.component';
 // import { StatusCreateComponent } from './status-create/status-create.component';
 
 @NgModule({
@@ -23,6 +24,7 @@ import { ProgressDemoComponent } from './progress-demo/progress-demo.component';
         AppComponent,
         SubC01Component,
         ProgressDemoComponent,
+        RxjsDemoComponent,
         // StatusCreateComponent,
     ],
     providers: [],
