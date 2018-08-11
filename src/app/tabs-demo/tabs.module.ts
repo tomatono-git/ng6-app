@@ -6,19 +6,21 @@ import { NgModule } from '@angular/core';
 // import { MatInputModule, MatButtonModule, MatTabGroup, MatTabsModule } from '@angular/material';
 import { MatTabsModule } from '@angular/material';
 
-import { RouterModule, Routes } from '@angular/router';
+// import { RouterModule, Routes } from '@angular/router';
 
 import { Tab01Component } from './tab01/tab01.component';
 import { Tab02Component } from './tab02/tab02.component';
 import { NavComponent } from './nav/nav.component';
 import { TabsRoutingModule } from './tabs-routing.module';
+import { CommonModule } from '@angular/common';
+import { Tab03Component } from './tab03/tab03.component';
 
 @NgModule({
     imports: [
+        CommonModule,
         // BrowserModule,
         // FormsModule,
         // HttpClientModule,
-        BrowserAnimationsModule,
         MatTabsModule,
         TabsRoutingModule,
     ],
@@ -26,6 +28,7 @@ import { TabsRoutingModule } from './tabs-routing.module';
         Tab01Component,
         Tab02Component,
         NavComponent,
+        Tab03Component,
     ],
     providers: [],
     // bootstrap: [AppComponent]

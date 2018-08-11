@@ -17,15 +17,17 @@ import { RxjsDemoComponent } from './rxjs-demo/rxjs-demo.component';
 // import { Tab02Component } from './tabs-demo/tab02/tab02.component';
 // import { NavComponent } from './tabs-demo/nav/nav.component';
 import { TabsModule } from './tabs-demo/tabs.module';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 // import { StatusCreateComponent } from './status-create/status-create.component';
 
 @NgModule({
     imports: [
         BrowserModule,
+        BrowserAnimationsModule,
         FormsModule,
         HttpClientModule,
         AppRoutingModule,
-        TabsModule,
+        // TabsModule,
         // BrowserAnimationsModule,
         // MatTabsModule,
     ],

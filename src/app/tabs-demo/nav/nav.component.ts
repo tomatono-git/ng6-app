@@ -8,9 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class NavComponent implements OnInit {
 
     links = [
-        { path: '', label: 'blank' },
         { path: 'tab01', label: 'tab01' },
         { path: 'tab02', label: 'tab02' },
+        { path: 'tab03', label: 'tab03' },
     ];
 
     constructor() { }
